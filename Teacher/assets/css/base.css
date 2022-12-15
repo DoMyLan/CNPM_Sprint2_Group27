@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #fff !important;
+    --light-green-color: #4C7573 !important;
+    --dark-green-color: #233634 !important;
+    --red-color: #FF0000 !important;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: var(--dark-green-color);
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col_r4 {
+    width: 40%;
+}
+
+.col_r6 {
+    width: 60%;
+}
+
+.row {
+    display: flex;
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: var(--light-green-color);
+}
+
+h2 {
+    font-size: 1rem;
+}
